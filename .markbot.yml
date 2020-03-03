@@ -1,4 +1,5 @@
-repo: 'whats-yo-name'
+repo: "whats-yo-name"
+canvasCourse: javascript
 
 naming: true
 restrictFileTypes: true
@@ -10,17 +11,20 @@ git:
   allSynced: true
 
 html:
-  - path: 'index.html'
+  - path: "index.html"
     valid: true
     bestPractices: true
     has:
       - 'script[src="js/main.js"]'
     hasNot:
-      - ['link', 'CSS isn’t necessary to complete this assignment']
-      - ['body :not(script)', 'The `<script>` tag should be the only tag inside `<body>` — no other HTML is needed']
+      - ["link", "CSS isn’t necessary to complete this assignment"]
+      - [
+          "body :not(script)",
+          "The `<script>` tag should be the only tag inside `<body>` — no other HTML is needed",
+        ]
 
 js:
-  - path: 'js/main.js'
+  - path: "js/main.js"
     valid: true
     bestPractices: true
     search:
@@ -28,10 +32,10 @@ js:
       - 'alert\('
       - 'if \('
       - '\} else \{'
-      - '=='
+      - "=="
 
 functionality:
-  - path: 'index.html'
+  - path: "index.html"
     setup: |
       window.alert = function (str) {
         window.alertText = str;
