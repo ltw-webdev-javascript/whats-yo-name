@@ -8,7 +8,7 @@
 
 This is the starter code for a step-by-step lesson. Each step is described in detail here:
 
-### [**Follow the What’s yo name? step-by-step lesson ➔**](https://learn-the-web.algonquindesign.ca/courses/javascript/whats-yo-name/)
+### [**Follow the What’s yo name? step-by-step lesson ➔**](https://learntheweb.courses/courses/javascript/whats-yo-name/)
 
 ---
 
